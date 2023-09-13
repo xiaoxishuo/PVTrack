@@ -4,9 +4,9 @@
 In this work, a Point-Video-based Transformer Tracking model (PVTrack) is presented for quadruped robots. It is the first 3D tracking work that jointly incorporates the LIDAR modality and RGB-video modality together and achieves dual information complementarity. Moreover, PVTrack proposes a hierarchical Self and Cross Attention strategy for the encoder to overcome dynamic environments by capturing more target-aware information through a two-branch paradigm adaptively. Considering the violent shaking on robots and rugged terrains, a lateral human-ware proposal network is designed together with an anti-shake speed prediction module. It alleviates the disturbance caused by complex scenes as well as the particularity of the robot platform itself.
 
 # Framework
-
+![](./network-architecture.png)
 # Visualization
-
+![](./experiment-2d+3d.png)
 # Citation
 If you find PTTR useful, please consider citing
 ```
